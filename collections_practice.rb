@@ -39,7 +39,7 @@ end
 
 def add_s(words)
   words.collect do |word|
-    if word[1] = word
+    if word[1] == word
       word
     else
       word + "s"
