@@ -39,7 +39,7 @@ end
 
 def add_s(words)
   words.each_with_index.collect do |element, index|
-    element[index] << "s"
+    element[index].add("s")
   end
 end
 
