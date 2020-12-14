@@ -19,14 +19,8 @@ def reverse_array(nums)
 end
 
 def kesha_maker(array)
-  i = 0 
-  kesha_array = []
-  
-  while i < array.length 
-    kesha_array << yield(kesha_array[i])
-    i += 1
-  end
-  
+  array.each do |item|
+    item[2] = $
 end
 
 
