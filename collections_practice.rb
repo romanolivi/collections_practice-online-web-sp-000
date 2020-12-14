@@ -3,7 +3,8 @@ def sort_array_asc(nums)
 end
 
 def sort_array_desc(nums)
-  nums.sort.reverse
+  nums.sort do |left, right|
+    right <=> left
 end
 
 def sort_array_char_count(nums)
