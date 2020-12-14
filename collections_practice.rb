@@ -15,7 +15,8 @@ def sort_array_char_count(nums)
 end
 
 def swap_elements(nums)
-  nums.sort.swap
+  nums.swap do |elements|
+    element[1] <=> element[2]
 end
 
 def reverse_array(nums)
