@@ -9,7 +9,7 @@ def sort_array_desc(nums)
 end
 
 def sort_array_char_count(nums)
-  nums.sort.length
+  nums.sort do |
 end
 
 def swap_elements(nums)
