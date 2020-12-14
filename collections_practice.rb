@@ -34,7 +34,7 @@ end
 
 
 def sum_array(nums)
-  nums.inject
+  nums.inject{|i, ii| i += ii }
 end
 
 
