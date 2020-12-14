@@ -11,6 +11,7 @@ end
 def sort_array_char_count(nums)
   nums.sort do |left, right|
     left.length <=> right.length
+  end
 end
 
 def swap_elements(nums)
