@@ -28,6 +28,9 @@ def kesha_maker(array)
   end
 end
 
+def find_a(strings)
+  strings.start_with?("a")
+end
 
 
 
