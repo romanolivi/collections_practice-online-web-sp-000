@@ -33,8 +33,8 @@ def find_a(strings)
 end
 
 
-def sum_array
-  
+def sum_array(nums)
+  nums.inject
 end
 
 
